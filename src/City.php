@@ -1,22 +1,22 @@
 <?php
 
-namespace Moharrum\LaravelGeoIPWorldCities;
+namespace Pixxet\LaravelGeoIPWorldCities;
 
 /*
- * \Moharrum\LaravelGeoIPWorldCities for Laravel 5
+ * \Pixxet\LaravelGeoIPWorldCities for Laravel 5
  *
  * Copyright (c) 2015 - 2017 LaravelGeoIPWorldCities
  *
- * @copyright  Copyright (c) 2015 - 2017 \Moharrum\LaravelGeoIPWorldCities
+ * @copyright  Copyright (c) 2015 - 2017 \Pixxet\LaravelGeoIPWorldCities
  * 
  * @license http://opensource.org/licenses/MIT MIT license
  */
 
 use Illuminate\Database\Eloquent\Model;
-use Moharrum\LaravelGeoIPWorldCities\Helpers\Config;
+use Pixxet\LaravelGeoIPWorldCities\Helpers\Config;
 
 /**
- * @author Khalid Moharrum <khalid.moharram@gmail.com>
+ * @author Khalid Pixxet <khalid.moharram@gmail.com>
  */
 class City extends Model
 {

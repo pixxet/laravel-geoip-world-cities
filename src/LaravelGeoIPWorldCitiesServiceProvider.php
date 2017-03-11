@@ -1,23 +1,23 @@
 <?php
 
-namespace Moharrum\LaravelGeoIPWorldCities;
+namespace Pixxet\LaravelGeoIPWorldCities;
 
 /*
- * \Moharrum\LaravelGeoIPWorldCities for Laravel 5
+ * \Pixxet\LaravelGeoIPWorldCities for Laravel 5
  *
  * Copyright (c) 2015 - 2017 LaravelGeoIPWorldCities
  *
- * @copyright  Copyright (c) 2015 - 2017 \Moharrum\LaravelGeoIPWorldCities
+ * @copyright  Copyright (c) 2015 - 2017 \Pixxet\LaravelGeoIPWorldCities
  * 
  * @license http://opensource.org/licenses/MIT MIT license
  */
 
 use Illuminate\Support\ServiceProvider;
-use Moharrum\LaravelGeoIPWorldCities\Console\CreateCitiesSeederCommand;
-use Moharrum\LaravelGeoIPWorldCities\Console\CreateCitiesMigrationCommand;
+use Pixxet\LaravelGeoIPWorldCities\Console\CreateCitiesSeederCommand;
+use Pixxet\LaravelGeoIPWorldCities\Console\CreateCitiesMigrationCommand;
 
 /**
- * @author Khalid Moharrum <khalid.moharram@gmail.com>
+ * @author Khalid Pixxet <khalid.moharram@gmail.com>
  */
 class LaravelGeoIPWorldCitiesServiceProvider extends ServiceProvider
 {

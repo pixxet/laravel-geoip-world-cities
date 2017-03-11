@@ -1,11 +1,11 @@
 <?php
 
 /*
- * \Moharrum\LaravelGeoIPWorldCities for Laravel 5
+ * \Pixxet\LaravelGeoIPWorldCities for Laravel 5
  *
  * Copyright (c) 2015 - 2017 LaravelGeoIPWorldCities
  *
- * @copyright  Copyright (c) 2015 - 2017 \Moharrum\LaravelGeoIPWorldCities
+ * @copyright  Copyright (c) 2015 - 2017 \Pixxet\LaravelGeoIPWorldCities
  * 
  * @license http://opensource.org/licenses/MIT MIT license
  */
@@ -13,10 +13,10 @@
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
-use Moharrum\LaravelGeoIPWorldCities\Helpers\Config;
+use Pixxet\LaravelGeoIPWorldCities\Helpers\Config;
 
 /**
- * @author Khalid Moharrum <khalid.moharram@gmail.com>
+ * @author Khalid Pixxet <khalid.moharram@gmail.com>
  */
 class CitiesTableSeeder extends Seeder
 {

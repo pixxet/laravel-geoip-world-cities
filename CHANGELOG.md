@@ -1,6 +1,6 @@
 # Changelog
 
-All Notable changes to `moharrum/laravel-geoip-world-cities/releases` will be documented in this file.
+All Notable changes to `pixxet/laravel-geoip-world-cities/releases` will be documented in this file.
 
 ## 2.3 - 2017-02-11
 

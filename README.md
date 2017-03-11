@@ -1,8 +1,8 @@
 # laravel-geoip-world-cities (Laravel 5)
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
-[![Latest Unstable Version](https://poser.pugx.org/moharrum/laravel-geoip-world-cities/v/unstable)](https://packagist.org/packages/moharrum/laravel-geoip-world-cities)
-[![Software License][ico-license]](https://github.com/moharrum/laravel-geoip-world-cities/blob/master/LICENSE.md)
+[![Latest Unstable Version](https://poser.pugx.org/pixxet/laravel-geoip-world-cities/v/unstable)](https://packagist.org/packages/pixxet/laravel-geoip-world-cities)
+[![Software License][ico-license]](https://github.com/pixxet/laravel-geoip-world-cities/blob/master/LICENSE.md)
 [![Total Downloads][ico-downloads]][link-downloads]
 
 Laravel GeoIP World Cities is package that provides [MaxMind](https://www.maxmind.com/en/free-world-cities-database) Free World Cities Database support for laravel applications.
@@ -29,19 +29,19 @@ This package simply loads the data provided in `worldcitiespop.txt.gz` file by [
 
 ## Before installing
 
-If you are looking for the Laravel 4 version, take a look [Branch 1.0](https://github.com/moharrum/laravel-geoip-world-cities/tree/1.0).
+If you are looking for the Laravel 4 version, take a look [Branch 1.0](https://github.com/pixxet/laravel-geoip-world-cities/tree/1.0).
 
 ## Installation
 
 **Note: This package is a bit large, ~40MB, installing and seeding the data could take a while.**
 
-Add `moharrum/laravel-geoip-world-cities` to `composer.json`:
+Add `pixxet/laravel-geoip-world-cities` to `composer.json`:
 
-    "moharrum/laravel-geoip-world-cities": "2.*"
+    "pixxet/laravel-geoip-world-cities": "2.*"
 
 for the last stable version, or
 
-    "moharrum/laravel-geoip-world-cities": "dev-master"
+    "pixxet/laravel-geoip-world-cities": "dev-master"
 
 for the latest version.
 
@@ -51,7 +51,7 @@ Edit `config/app.php` and add the `provider`
 
 ```php
     'providers' => [
-        Moharrum\LaravelGeoIPWorldCities\LaravelGeoIPWorldCitiesServiceProvider::class,
+        Pixxet\LaravelGeoIPWorldCities\LaravelGeoIPWorldCitiesServiceProvider::class,
     ]
 ```
 
@@ -59,7 +59,7 @@ Optionally add the alias.
 
 ```php
     'aliases' => [
-        'Cities' => Moharrum\LaravelGeoIPWorldCities\Facade::class,
+        'Cities' => Pixxet\LaravelGeoIPWorldCities\Facade::class,
     ]
 ```
 
@@ -107,7 +107,7 @@ After running this command the filled cities table will be available
 The package provides a `City` model which can be used to query the data
 
 ```php
-    \Moharrum\LaravelGeoIPWorldCities\City::whereCity('Khartoum')->first();
+    \Pixxet\LaravelGeoIPWorldCities\City::whereCity('Khartoum')->first();
 ```
 
 ## Troubleshooting
@@ -138,7 +138,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details
 ## Credits
 
 - [MaxMind](https://www.maxmind.com)
-- [Khalid Moharrum][link-author]
+- [Khalid Pixxet][link-author]
 - [MCMatters](https://github.com/MCMatters)
 
 ## License
@@ -147,11 +147,11 @@ MaxMind WorldCities [License](http://download.maxmind.com/download/geoip/databas
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/moharrum/laravel-geoip-world-cities.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/pixxet/laravel-geoip-world-cities.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/moharrum/laravel-geoip-world-cities.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/pixxet/laravel-geoip-world-cities.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/moharrum/laravel-geoip-world-cities
-[link-downloads]: https://packagist.org/packages/moharrum/laravel-geoip-world-cities
-[link-author]: https://github.com/moharrum
+[link-packagist]: https://packagist.org/packages/pixxet/laravel-geoip-world-cities
+[link-downloads]: https://packagist.org/packages/pixxet/laravel-geoip-world-cities
+[link-author]: https://github.com/pixxet
 [link-contributors]: ../../contributors
